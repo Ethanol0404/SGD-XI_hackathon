@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+Leaflet container styles
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* Custom marker styles */
+.leaflet-custom-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Popup styles */
+.leaflet-popup-content-wrapper {
+  border-radius: 0.75rem;
+  backdrop-filter: blur(10px);
+}
+
+.leaflet-popup-tip {
+  backdrop-filter: blur(10px);
+}

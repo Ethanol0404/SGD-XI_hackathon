@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { RouteInput } from "@/components/route-planner/RouteInput";
 import { RouteResults } from "@/components/route-planner/RouteResults";
-import { MapPlaceholder } from "@/components/route-planner/MapPlaceholder";
+import { MalaysiaMap } from "@/components/route-planner/MapPlaceholder";
 import { MapPin } from "lucide-react";
 
 const RoutePlanner = () => {
@@ -37,7 +37,7 @@ const RoutePlanner = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Left Side - Map */}
             <div className="order-2 lg:order-1">
-              <MapPlaceholder />
+              <MalaysiaMap />
             </div>
 
             {/* Right Side - Controls & Results */}

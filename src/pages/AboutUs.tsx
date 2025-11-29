@@ -19,7 +19,7 @@ const AboutUs = () => {
               <span className="text-gradient">Healthier Cities</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              We believe everyone deserves access to clean air and quality healthcare. 
+              We believe everyone deserves access to clean air and quality healthcare.
               UrbanCare is building the future of urban health navigation.
             </p>
           </div>
@@ -33,13 +33,13 @@ const AboutUs = () => {
               <h2 className="font-display text-2xl font-bold text-foreground">Our Mission</h2>
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              UrbanCare is an AI-powered platform dedicated to transforming urban health navigation. 
-              We help residents find the healthiest and safest routes to healthcare facilities by 
+              UrbanCare is an AI-powered platform dedicated to transforming urban health navigation.
+              We help residents find the healthiest and safest routes to healthcare facilities by
               analyzing real-time air quality, traffic congestion, and accident risk data.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Our platform also empowers city planners and health authorities to identify underserved 
-              areas with poor healthcare access and high pollution exposure, enabling data-driven 
+              Our platform also empowers city planners and health authorities to identify underserved
+              areas with poor healthcare access and high pollution exposure, enabling data-driven
               decisions for building healthier, more equitable cities.
             </p>
           </div>
@@ -100,6 +100,7 @@ const AboutUs = () => {
                 "Traffic congestion delays emergency access to hospitals when every second counts",
                 "Many communities are far from clinics and located in high-risk pollution zones",
                 "City planners lack real-time, integrated insights for healthcare accessibility",
+                "Lack of transparency on hospital capacity and ambulance availability reduces emergency care efficiency.",
               ].map((problem, index) => (
                 <div key={index} className="flex items-start gap-3 p-4 rounded-xl bg-background/50">
                   <div className="w-6 h-6 rounded-full bg-health-danger/20 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -119,12 +120,18 @@ const AboutUs = () => {
             <h2 className="font-display text-2xl font-bold text-foreground mb-4">
               Our Vision
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              A world where every urban resident can navigate their city with confidence, 
-              breathing cleaner air and accessing quality healthcare when they need it most. 
-              We envision smart cities where data-driven decisions create healthier, 
-              more equitable communities for all.
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
+              A world where every urban resident can move through their city safely, breathing cleaner air, avoiding hidden health risks, and reaching the right healthcare facility without delay.
             </p>
+
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-4">
+              We imagine smart cities where real-time data on pollution, traffic, hospital capacity, and ambulance availability empowers both citizens and authorities to make faster, healthier, and more equitable decisions.
+            </p>
+
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Our vision is a future where technology bridges healthcare gaps, protects vulnerable communities, and ensures that quality care is accessible for all—exactly when and where it is needed.
+            </p>
+
           </div>
         </div>
       </main>

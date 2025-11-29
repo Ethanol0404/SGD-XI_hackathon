@@ -101,8 +101,8 @@ All data is processed in real time using AI.
 
 Dataset reference
 
-1) [World's Air Pollution: Real-time Air Quality Index](https://waqi.info/#/c/2.066/7.703/2.4z) https://waqi.info/#/c/0.891/7.703/2.4z
+1) [World's Air Pollution: Real-time Air Quality Index](https://waqi.info/#/c/2.066/7.703/2.4z) 
 
 2) [Portal Rasmi Kementerian Kesihatan Malaysia](https://www.moh.gov.my/index.php/database_stores/store_view/82)
 
-https://www.moh.gov.my/index.php/database\_stores/store\_view/82
+

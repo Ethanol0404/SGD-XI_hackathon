@@ -7,7 +7,8 @@ import {
   Activity, 
   Menu,
   X,
-  Phone
+  Phone,
+  Heart
 } from "lucide-react";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
@@ -17,6 +18,7 @@ const navItems = [
   { path: "/route-planner", label: "Route Planner", icon: MapPin },
   { path: "/healthcare-access", label: "Healthcare Access", icon: BarChart3 },
   { path: "/health-analytics", label: "Health Analytics", icon: Activity },
+  { path: "/about-us", label: "About Us", icon: Heart },
 ];
 
 export function Navbar() {
